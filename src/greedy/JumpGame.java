@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package greedy;
 
 public class JumpGame {
     public static void main(String[] args) {

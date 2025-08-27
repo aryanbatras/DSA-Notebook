@@ -1,3 +1,5 @@
+package greedy;
+
 public class MinimumOperationsToMakeTheArrayIncreasing {
     public static int minOperations(int[] nums) {
         int ans = 0;

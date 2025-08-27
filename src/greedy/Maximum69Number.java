@@ -1,3 +1,5 @@
+package greedy;
+
 public class Maximum69Number {
     public static int maximum69Number (int num) {
         String s = String.valueOf(num);

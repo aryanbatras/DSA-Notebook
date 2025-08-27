@@ -1,3 +1,5 @@
+package greedy;
+
 public class BestTimeToBuyAndSellStockII {
     public static void main(String[] args) {
         System.out.println(

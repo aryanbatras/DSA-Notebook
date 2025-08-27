@@ -1,3 +1,5 @@
+package greedy;
+
 public class MinimumSumOfFourDigitNumberAfterSplittingDigits {
     public static int minimumSum(int num) {
         int firstMin = Integer.MAX_VALUE, secondMin = Integer.MAX_VALUE;

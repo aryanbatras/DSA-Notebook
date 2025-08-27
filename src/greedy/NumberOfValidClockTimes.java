@@ -1,3 +1,5 @@
+package greedy;
+
 public class NumberOfValidClockTimes {
     public static int countTime(String time) {
 

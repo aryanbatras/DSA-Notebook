@@ -1,3 +1,5 @@
+package greedy;
+
 import java.util.Arrays;
 
 // Weekly Contest 464

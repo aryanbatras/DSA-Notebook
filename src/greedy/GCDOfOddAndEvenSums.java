@@ -1,3 +1,5 @@
+package greedy;
+
 public class GCDOfOddAndEvenSums {
     public static int gcdOfOddAndEvenSums(int n) {
         int sumOdd = 0;

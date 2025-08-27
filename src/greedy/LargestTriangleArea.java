@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package greedy;
 
 public class LargestTriangleArea {
     public static double largestTriangleArea(int[][] points) {

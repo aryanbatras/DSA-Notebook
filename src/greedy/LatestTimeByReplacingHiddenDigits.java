@@ -1,3 +1,5 @@
+package greedy;
+
 public class LatestTimeByReplacingHiddenDigits {
     public static String maximumTime(String time) {
         // one time '?'
