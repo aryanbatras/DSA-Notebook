@@ -1,9 +1,15 @@
-package greedy;
+package greedy.easy;
 
 import java.util.Arrays;
 import java.util.Stack;
 
 public class LongestPalindrome {
+//    We have a string that has lowercase and uppercase letters, and we have to find out the longest palindrome that can be built from those characters in the string, that’s all.
+//
+//    s = “abccccdd”	output = 7
+//
+//    Approach
+//    Sorting the array and then using stacks.
     public static void main(String[] args) {
         System.out.println(
                 longestPalindrome("aba")

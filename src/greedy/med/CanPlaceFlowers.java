@@ -1,7 +1,27 @@
-package greedy;
+package greedy.med;
 
 public class CanPlaceFlowers {
 
+//    We have a flowerbed in some particular order represented by zeros and ones of an array, where zero represents flower is not here, and one represents flower is there. Now there is a rule that the order of flowerbed is fixed and flowers cannot be planted in adjacent plots. Means there has to be a zero between two ones. Now the problem says we have to find whether we can add n more flowers into the zeros following the no adjacent flowers role.
+//
+//    Example 1
+//    flowerbed = [1,0,0,0,1], n = 1
+//    output = true since we can place a flower in the middle
+//
+//    Example 2
+//    flowerbed = [1,0,0,0,1], n = 2
+//    output = false since only one flower can be here but two needed
+//
+//    Approach 1
+//    No need to sort since order is fixed. Finding the number of zeros and ones won’t work here since order and adjacency rule matters here.
+//
+//    Approach 2
+//    Greedily solving this for each step. Too many edge cases since we are checking the best answer for every loop. Most of the edge cases arise when index is first or last and also when size is either one or two.
+//
+//            Note
+//    Edge cases are critical
+//
+//
     // Wrong Solution. It is not about the number of zeros and ones. It is about the order.
 //    public static boolean canPlaceFlowers(int[] flowerbed, int n) {
 //

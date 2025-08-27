@@ -1,6 +1,15 @@
-package greedy;
+package greedy.easy;
 
 public class Maximum69Number {
+//    We have a number that has digits 6 and 9. We have to find the maximum number we can get by changing at most one digit.
+//
+//    Example 1
+//    num = 9669
+//    output = 9969
+//
+//    Approach
+//    A loop. O(n) complexity.
+
     public static int maximum69Number (int num) {
         String s = String.valueOf(num);
         for(int e = 0; e < s.length(); e++){

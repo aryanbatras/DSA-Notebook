@@ -1,6 +1,16 @@
-package greedy;
+package greedy.med;
 
 public class BestTimeToBuyAndSellStockII {
+//    We have array nums where each index i represents a day. On each day, the stock prices are changed and reflected in the array. The days are represented in array from 0 to n - 1. You can buy at any day and sell any day as per your convenience. The goal here is to maximize the profit and return the profit.
+//
+//    prices = [7,1,5,3,6,4]			output = 7
+//    buy on day 2 & sell on day 3 and buy on day 4 & sell on day 5.
+//
+//    prices = [1,2,3,4,5]				output = 4
+//    buy on day 1 and sell on day 5.
+//
+//    Approach
+//    Not sure which approach. We just call it greedy.
     public static void main(String[] args) {
         System.out.println(
                 maxProfit(new int[]{7,1,5,3,6,4})

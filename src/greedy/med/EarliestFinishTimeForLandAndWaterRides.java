@@ -1,6 +1,38 @@
-package greedy;
+package greedy.med;
 
 public class EarliestFinishTimeForLandAndWaterRides {
+
+//    These are two questions I & II with different constraints. The question I accepts brute force but II accepts only O(n) solution.
+//
+//    We have two theme parks, land rides and water rides. Both rides are having start time at different intervals and the duration of each ride. Now the tourist wants to take both rides from each category exactly once and it can be in any order. We have to find the earliest possible time for the tourist to finish both rides.
+//
+//    Note
+//    When tourist completes one ride, the other ride not necessarily has to be included start time as well, since that ride may have already started (depends on the time tourist took to took one ride), but if the start time of other ride is still more, you might have to add only that much.
+//
+//    Example 1
+//    landStartTime = [2,8], landDuration = [4,1]
+//    waterStartTime = [6], waterDuration = [3]
+//    output = 9 since the minimum time is land ride first 2 + 4, then water duration only since water ride has already started + 3.
+//
+//    Example 2
+//    landStartTime = [5], landDuration = [3]
+//    waterStartTime = [1], waterDuration = [10]
+//    output = 14 since water start time is less, so 1 + 10, then land slide has already started so + 3.
+//
+//    Approach 1
+//    Tried the classic sort the arrays. Use two pointer. And do comparisons to find the best possible solution. Nope failed here. When you are sorting it, there is a different start time and duration time, you cannot just accumulate them since for other ride, you have to discard start time.
+//
+//            Approach 2
+//    Tried 2 pointer without sorting the arrays, just to get the minimum value index based on comparison and then running an accumulator. Did not worked.
+//
+//            Approach 3
+//    Tried to precompute the earliest finish time by picking either land slide or water slide first, finding the minimum from there, and based on the minimum, trying to accumulate value from other slide for each case. Not sure why it did not worked since I’m trying to precompute the earliest finish time for one ride and not considering the minimum for other slide.
+//
+//    Approach 4
+//    Using brute force, we ran two loops to check for all possible outcomes, and accumulating the value for first slide for each step, and then choosing the other slide, and storing the minimum value among all those possibilities. Pretty easy. Intuition is not easy.
+//
+//    Approach 5
+//    Using O(n) solution to precompute again with earliest finish time, but now perfectly calculating the max and min wherever required among all the possibilities. We compute minimum for one slide first and check for all possibilities with the other slide to get minimum there as well.
 
 
 //    public static int earliestFinishTime(

@@ -1,8 +1,28 @@
-package greedy;
+package greedy.med;
 
 import java.util.Arrays;
 
 public class BoatsToSavePeople {
+
+//    We have people array with their weights, and we have been limit of each boat, where limit represents the maximum weight each boat can hold. Here, we assume that the boats are infinite and we have to resume the people having different weights. We have to find the minimum number of boats required in order to save some people.
+//
+//    Example 1
+//    people = [1, 2], limit = 3
+//    output = 1 since minimum boats required are one.
+//
+//    Example 2
+//    people = [3, 2, 2, 1], limit = 3
+//    output = 3 since minimum boats required here are three.
+//
+//            Approach 1
+//    Tried to solve it by sorting the array and simple traversing. Not sure why it was not solved in some test cases.
+//
+//            Approach 2
+//    Solved it by using two pointer approach on a sorted array. First we compared the sum of both lowest and highest weight with limit. If not, then on the highest weight side, we compared two people, and then on the lowest weight side. Not sure why to use two pointer only.
+//
+//    Note
+//    Not much edge cases. The intuition build up is challenging.
+
 
     // Wrong Answer
 //    public static int numberOfRescueBoats(int[] people, int limit){
