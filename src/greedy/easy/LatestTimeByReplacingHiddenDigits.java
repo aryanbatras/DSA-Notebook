@@ -1,4 +1,4 @@
-package greedy;
+package greedy.easy;
 
 public class LatestTimeByReplacingHiddenDigits {
     public static String maximumTime(String time) {

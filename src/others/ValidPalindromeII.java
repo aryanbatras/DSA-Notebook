@@ -1,4 +1,4 @@
-package greedy;
+package others;
 
 public class ValidPalindromeII {
 //    public static boolean validPalindrome(String s) {

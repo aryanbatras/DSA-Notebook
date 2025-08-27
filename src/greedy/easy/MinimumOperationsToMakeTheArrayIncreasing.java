@@ -1,4 +1,4 @@
-package greedy;
+package greedy.easy;
 
 public class MinimumOperationsToMakeTheArrayIncreasing {
     public static int minOperations(int[] nums) {

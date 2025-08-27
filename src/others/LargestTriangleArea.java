@@ -1,4 +1,4 @@
-package greedy;
+package others;
 
 public class LargestTriangleArea {
     public static double largestTriangleArea(int[][] points) {

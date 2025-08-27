@@ -1,4 +1,4 @@
-package greedy;
+package greedy.easy;
 
 public class MinimumSumOfFourDigitNumberAfterSplittingDigits {
     public static int minimumSum(int num) {

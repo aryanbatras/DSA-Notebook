@@ -1,4 +1,4 @@
-package greedy;
+package others;
 
 public class GCDOfOddAndEvenSums {
     public static int gcdOfOddAndEvenSums(int n) {
